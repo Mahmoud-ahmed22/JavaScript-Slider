@@ -1,2 +1,2 @@
 For Live Preview:
-javascript-slider2123.netlify.app
+javascript-slider123.netlify.app

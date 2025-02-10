@@ -1,0 +1,42 @@
+
+.overlay {
+    position: fixed;
+    top: 0;
+    right: 0;
+    left: 0;
+    bottom: 0;
+    background-color: #000;
+    opacity: .7;
+    z-index: 1;
+    display: none;
+
+}
+
+
+.container .images-container img {
+    width: 285px;
+    height: 177px;
+    cursor: pointer;
+}
+
+.popUpContainer {
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 700px;
+    height: 400px;
+    position: relative;
+    z-index: 2;
+    display: none;
+}
+
+.popUpContainer #close {
+    position: absolute;
+    top: 20px;
+    right: 20px;
+}
+
+.popUpContainer i {
+    font-size: 23px;
+    color: #FFF;
+    cursor: pointer;
+}
